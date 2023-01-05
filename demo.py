@@ -143,4 +143,4 @@ def main():
     return base64_data
 
 if __name__ == '__main__':
-    main:app.run('0.0.0.0',debug=True)
+    main:app.run(debug=True)

@@ -3,9 +3,9 @@ import requests
 import json
 import cv2 as cv
 
-url = 'http://39.105.114.96:5000/api'
+url = 'http://127.0.0.1:5000/api'
 def main():
-    f = open('D:\DeepLearning\SSDtrain\demo\Japan_002964.jpg', 'rb')
+    f = open('/home/lx/1.jpg', 'rb')
     #base64编码
     base64_data = base64.b64encode(f.read())
     f.close()
